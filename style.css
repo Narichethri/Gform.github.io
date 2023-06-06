@@ -1,0 +1,525 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background-color:rgb(215, 236, 215);
+}
+.topcolor{
+    width:800px;
+    height:150px;
+    background-color:darkgreen;
+    background-image:url(google1.png);
+    opacity:none;
+    border-radius:10px;
+    margin-left:250px;
+    margin-top:20px;
+   
+}
+.heading{
+    width:800px;
+    height:150px;
+    margin-left:250px;
+    margin-top:20px;
+    box-shadow:black;
+    background-color:aliceblue;
+    border-radius:10px;
+    border-top:10px solid green;
+
+}
+.heading h1{
+    background-color:aliceblue;
+    margin-left:50px;
+    padding:10px 0;
+    font-weight:100;
+    border-bottom: 1px solid gray;
+    width:700px;
+    opacity:0.6;
+}
+.heading h1:hover{
+    border-bottom: 3px solid darkgreen;
+
+}
+.heading hr{
+    width:700px;
+    margin-left:50px;
+}
+.heading input{
+    border:none;
+    background-color:aliceblue;
+    color:black;
+    border-bottom: 1px solid gray;
+    margin-left:50px;
+    margin-top:20px;
+    padding:10px 0;
+    width:700px;
+    font-size:15px;
+}
+.heading input:focus{
+    outline:none;
+}
+.heading input:hover{
+    border-bottom: 2px solid darkgreen;
+
+}
+.namebox{
+    width:800px;
+    height:150px;
+    margin-left:250px;
+    margin-top:20px;
+    box-shadow:black;
+    background-color:aliceblue;
+    border-radius:10px;
+
+}
+.namebox label{
+    position:absolute;
+    background-color:aliceblue;
+    margin:30px auto auto 50px;
+
+}
+span{
+    background-color:aliceblue;
+    color:red;
+}
+.namebox input{
+    border:none;
+    background-color:aliceblue;
+    color:black;
+    border-bottom: 1px solid gray;
+    margin-left:50px;
+    margin-top:60px;
+    padding:10px 0;
+    width:700px;
+    font-size:15px;
+}
+.namebox input:focus{
+    outline:none;
+}
+.namebox input:hover{
+    border-bottom: 2px solid darkgreen;
+}
+.emailbox{
+        width:800px;
+        height:150px;
+        margin-left:250px;
+        margin-top:20px;
+        box-shadow:black;
+        background-color:aliceblue;
+        border-radius:10px;
+    
+}
+.emailbox label{
+    position:absolute;
+    background-color:aliceblue;
+    margin:30px auto auto 50px;
+
+}
+.emailbox input{
+    border:none;
+    background-color:aliceblue;
+    color:black;
+    border-bottom: 1px solid gray;
+    margin-left:50px;
+    margin-top:60px;
+    padding:10px 0;
+    width:700px;
+    font-size:15px;
+}
+.emailbox input:focus{
+    outline:none;
+}
+.emailbox input:hover{
+    border-bottom: 2px solid darkgreen;
+}
+.addressbox{
+    width:800px;
+    height:150px;
+    margin-left:250px;
+    margin-top:20px;
+    box-shadow:black;
+    background-color:aliceblue;
+    border-radius:10px;
+
+}
+.addressbox label{
+position:absolute;
+background-color:aliceblue;
+margin:30px auto auto 50px;
+
+}
+.addressbox input{
+border:none;
+background-color:aliceblue;
+color:black;
+border-bottom: 1px solid gray;
+margin-left:50px;
+margin-top:60px;
+padding:10px 0;
+width:700px;
+font-size:15px;
+}
+.addressbox input:focus{
+outline:none;
+}
+.addressbox input:hover{
+border-bottom: 2px solid darkgreen;
+}
+.phonebox{
+    width:800px;
+    height:150px;
+    margin-left:250px;
+    margin-top:20px;
+    box-shadow:black;
+    background-color:aliceblue;
+    border-radius:10px;
+
+}
+.phonebox label{
+position:absolute;
+background-color:aliceblue;
+margin:30px auto auto 50px;
+
+}
+.phonebox input{
+border:none;
+background-color:aliceblue;
+color:black;
+border-bottom: 1px solid gray;
+margin-left:50px;
+margin-top:60px;
+padding:10px 0;
+width:700px;
+font-size:15px;
+}
+.phonebox input:focus{
+outline:none;
+}
+.phonebox input:hover{
+border-bottom: 2px solid darkgreen;
+}
+.commentbox{
+    width:800px;
+    height:auto;
+    margin-left:250px;
+    margin-top:20px;
+    box-shadow:black;
+    background-color:aliceblue;
+    border-radius:10px;
+
+}
+.commentbox label{
+position:absolute;
+background-color:aliceblue;
+margin:30px auto auto 50px;
+
+}
+.commentbox textarea{
+border:none;
+background-color:aliceblue;
+color:black;
+border-bottom: 1px solid gray;
+margin-left:50px;
+margin-top:60px;
+padding:10px 0;
+width:700px;
+font-size:15px;
+}
+.commentbox textarea:focus{
+outline:none;
+}
+.commentbox textarea:hover{
+border-bottom: 2px solid darkgreen;
+}
+.submit {
+    padding:7px 15px;
+    margin-top:20px;
+    margin-bottom:10px;
+    background-color:darkseagreen;
+    border-radius:5px;
+    border:none;
+    margin-left:260px;
+}
+.reset{
+    border:none;
+    font-weight:bold;
+    margin-left:600px;
+    color:darkgreen;
+    
+}
+.submit:hover{
+    background-color:yellowgreen;
+}
+.para1{
+    color:gray;
+    margin-left:250px;
+}
+.para2{
+    color:gray;
+    text-align:center;
+}
+.para3{
+    text-align:center;
+    margin-top:10px;
+    opacity:0.5;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+side{
+    opacity:0.7;
+}
+@media screen and (max-width:1100px){
+    .topcolor{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+       
+    }
+    .heading{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+    
+    }
+    .heading h1{
+        width:600px;
+    }
+    .heading input{
+        width:600px;
+    }
+    .namebox{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+    
+    }
+    .namebox h1{
+        width:600px;
+    }
+    .namebox input{
+        width:600px;
+    }
+    .emailbox{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+    
+    }
+    .emailbox h1{
+        width:600px;
+    }
+    .emailbox input{
+        width:600px;
+    }
+    .addressbox{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+    
+    }
+    .addressbox h1{
+        width:600px;
+    }
+    .addressbox input{
+        width:600px;
+    }
+    .phonebox{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+    
+    }
+    .phonebox h1{
+        width:600px;
+    }
+    .phonebox input{
+        width:600px;
+    }
+    .commentbox{
+        width:700px;
+        height:150px;
+        margin-left:200px;
+    
+    }
+    .commentbox h1{
+        width:600px;
+    }
+    .commentbox input{
+        width:600px;
+    }
+    .commentbox textarea{
+        width:600px;
+    }
+    .submit{
+        margin-left:200px;
+    }
+    .reset{
+        margin-left:550px;
+    }
+    .para1{
+        margin-left:200px;
+    }
+}
+@media screen and (max-width:990px){
+    .topcolor{
+        margin-left:170px;
+    }
+    .heading{
+         margin-left:170px;
+    }
+    .namebox{
+        margin-left:170px;
+    }
+    .emailbox{
+        margin-left:170px;
+    }
+    .addressbox{
+        margin-left:170px;
+    }
+    .phonebox{
+        margin-left:170px;
+    }
+    .commentbox{
+        margin-left:170px;
+    }
+    .submit{
+        margin-left:170px;
+    }
+    .reset{
+        margin-left:530px;
+    }
+    .para1{
+        margin-left:170px;
+    }
+}
+@media screen and (max-width:770px){
+    .topcolor{
+        width:600px;
+        height:120px;
+        margin-left:90px;
+       
+    }
+    .heading, .heading, .namebox, .emailbox, .addressbox, .phonebox , .commentbox{
+        width:600px;
+        height:120px;
+        margin-left:90px;
+    
+    }
+    .heading h1, .namebox h1, .emailbox h1, .addressbox h1, .phonebox h1, .commentbox h1{
+        width:500px;
+    }
+    .heading input, .namebox input, .emailbox input, .addressbox input, .phonebox input, .commentbox textarea{
+        width:500px;
+    }
+    .submit{
+        margin-left:100px;
+    }
+    .commentbox{
+        height:auto;
+    }
+    .reset{
+        margin-left:400px;
+    }
+    .para1{
+        margin-left:100px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .topcolor{
+        width:500px;
+        height:100px;
+        margin-left:40px;
+       
+    }
+    .heading, .heading, .namebox, .emailbox, .addressbox, .phonebox , .commentbox{
+        width:500px;
+        height:100px;
+        margin-left:40px;
+    
+    }
+    .heading h1{
+        width:400px;
+        padding:0;
+    }
+    .heading label, .namebox label, .emailbox label, .addressbox label, .phonebox label, .commentbox label{
+        width:400px;
+        margin-top:15px;
+    }
+
+    .heading input, .namebox input, .emailbox input, .addressbox input, .phonebox input, .commentbox textarea{
+        width:400px;
+        padding:0;
+    }
+    .commentbox{
+        height:auto;
+    }
+    .submit{
+        margin-left:40px;
+    }
+    .reset{
+        margin-left:300px;
+    }
+    .para1{
+        margin-left:40px;
+    }
+}
+@media screen and (max-width:400px){
+    .topcolor{
+        width:350px;
+        height:70px;
+        margin-left:10px;
+       
+    }
+    .heading, .heading, .namebox, .emailbox, .addressbox, .phonebox , .commentbox{
+        width:350px;
+        height:70px;
+        margin-left:10px;
+        margin-top:5px;
+    
+    }
+    .heading h1{
+        font-size:22px;
+        width:250px;
+        padding:0;
+        margin-left:10px;
+    }
+    .heading label, .namebox label, .emailbox label, .addressbox label, .phonebox label, .commentbox label{
+        width:250px;
+        margin-top:12px;
+        margin-left:10px;
+    }
+
+    .heading input{
+        width:300px;
+        padding:0;
+        margin-top:20px;
+        margin-left:10px;
+
+    }
+     .namebox input, .emailbox input, .addressbox input, .phonebox input, .commentbox textarea{
+        width:300px;
+        padding:0;
+        margin-top:38px;
+        margin-left:10px;
+    }
+    .commentbox{
+        height:auto;
+    }
+    .commentbox textarea{
+        width:300px;
+    }
+    .submit{
+        margin-left:10px;
+    }
+    .reset{
+        margin-left:200px;
+    }
+    .para1{
+        margin-left:10px;
+        font-size:10px;
+    }
+    .para2,.para3{
+        font-size:10px;
+    }
+}
